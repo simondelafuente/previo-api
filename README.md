@@ -1,70 +1,95 @@
-# Getting Started with Create React App
+# Conversor de Monedas con React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+✨ Este es un proyecto desarrollado como parte de las actividades de la facultad. Es una aplicación web que permite a los usuarios realizar conversiones de moneda, eligiendo la moneda de origen, la moneda de destino, e ingresando una fecha específica para calcular la conversión basada en la tasa de cambio de ese día. ✨
 
-## Available Scripts
+## Tecnologías Utilizadas
 
-In the project directory, you can run:
+- **React**: Biblioteca de JavaScript para la construcción de interfaces de usuario.
+- **Tailwind CSS**: Framework de CSS para estilos rápidos y personalizables, con soporte para modo claro y oscuro.
+- **Lucide React**: Biblioteca de íconos SVG reactivos.
+- **API Frankfurter**: Fuente de datos para obtener tasas de cambio de monedas.
 
-### `npm start`
+## Características
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Interfaz de Usuario Intuitiva:**
+   - Campo de entrada para el monto a convertir.
+   - Selector desplegable para elegir moneda de origen y destino.
+   - Selector de fecha para especificar el día de la tasa de cambio.
+   - Botón para realizar la conversión.
+   - Resultado de la conversión mostrado de manera clara.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. **Modo Claro y Oscuro:** ☀ 🌙
+   - Implementado con Tailwind CSS para mejorar la experiencia de usuario en diferentes condiciones de luz.
 
-### `npm test`
+3. **Conexión con la API Frankfurter:**
+   - Obtención dinámica de tasas de cambio para realizar las conversiones basadas en la fecha seleccionada. 📈
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Instalación y Uso
 
-### `npm run build`
+Sigue estos pasos para ejecutar el proyecto en tu entorno local:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clona este repositorio:
+   ```bash
+   git clone https://github.com/tu-usuario/conversor-monedas
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Navega al directorio del proyecto:
+   ```bash
+   cd conversor-monedas
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Instala las dependencias:
+   ```bash
+   npm install
+   ```
 
-### `npm run eject`
+4. Inicia la aplicación:
+   ```bash
+   npm start
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+5. Abre tu navegador y accede a `http://localhost:3000` para ver la aplicación en acción. 🌐
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Uso de la Aplicación
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+☑ Ingresa un monto en el campo de texto.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+☑ Selecciona la moneda de origen y la moneda de destino utilizando los desplegables.
 
-## Learn More
+☑ Selecciona una fecha utilizando el selector de fecha.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+☑ Haz clic en el botón de conversión para ver el resultado basado en la tasa de cambio de la fecha elegida.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Archivos Principales
 
-### Code Splitting
+- `src/components/DatePicker.js`: Componente para seleccionar la fecha.
+- `src/components/CurrencySelector.js`: Componente para seleccionar las monedas.
+- `src/App.js`: Lógica principal y ensamblaje de la aplicación.
+- `src/index.css`: Configuración de Tailwind CSS.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Capturas de Pantalla
 
-### Analyzing the Bundle Size
+- **Modo Claro:** 🔆
+  (Incluye capturas del modo claro aquí)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- **Modo Oscuro:** 🌌
+  (Incluye capturas del modo oscuro aquí)
 
-### Making a Progressive Web App
+## Fuentes de Datos
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- **Frankfurter API:**
+  - URL para las monedas disponibles: `https://api.frankfurter.app/currencies`
+  - URL para tasas de cambio específicas: `https://api.frankfurter.app/YYYY-MM-DD`
 
-### Advanced Configuration
+## Contribuciones
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+✨ Este es un proyecto académico, por lo que no se aceptan contribuciones externas. Sin embargo, si deseas dejar comentarios o sugerencias, puedes abrir un issue en este repositorio. ✨
 
-### Deployment
+## Licencia
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+⚡ Este proyecto es de uso exclusivo para fines educativos y no tiene una licencia formal asociada. ⚡
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Gracias por revisar este proyecto. Si tienes preguntas o inquietudes, no dudes en contactarme. 😊
+
