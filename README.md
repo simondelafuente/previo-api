@@ -70,10 +70,12 @@ Sigue estos pasos para ejecutar el proyecto en tu entorno local:
 ## Capturas de Pantalla
 
 - **Modo Claro:** 🔆
-  (Incluye capturas del modo claro aquí)
+  ![image](https://github.com/user-attachments/assets/33101edb-edbd-4f92-8903-b399d4ae55d2)
+
 
 - **Modo Oscuro:** 🌌
-  (Incluye capturas del modo oscuro aquí)
+  ![image](https://github.com/user-attachments/assets/a2247365-a1e1-4e7c-8091-a5b2a9e1595d)
+
 
 ## Fuentes de Datos
 
