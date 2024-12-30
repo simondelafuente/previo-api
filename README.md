@@ -69,13 +69,11 @@ Sigue estos pasos para ejecutar el proyecto en tu entorno local:
 
 ## Capturas de Pantalla
 
-- **Modo Claro:** 🔆
-  ![image](https://github.com/user-attachments/assets/33101edb-edbd-4f92-8903-b399d4ae55d2)
+- **Modo Claro:** 🔆  
+  <img src="https://github.com/user-attachments/assets/33101edb-edbd-4f92-8903-b399d4ae55d2" alt="Modo Claro" width="600" />
 
-
-- **Modo Oscuro:** 🌌
-  ![image](https://github.com/user-attachments/assets/a2247365-a1e1-4e7c-8091-a5b2a9e1595d)
-
+- **Modo Oscuro:** 🌌  
+  <img src="https://github.com/user-attachments/assets/a2247365-a1e1-4e7c-8091-a5b2a9e1595d" alt="Modo Oscuro" width="600" />
 
 ## Fuentes de Datos
 
